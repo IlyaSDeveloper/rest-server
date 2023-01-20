@@ -1,5 +1,5 @@
 import express from 'express'
-const { Op } = require('sequelize')
+import { Op } from 'sequelize'
 import Books from '../models/Books.js'
 import Authors from '../models/Authors.js'
 import Genres from '../models/Genres.js'
